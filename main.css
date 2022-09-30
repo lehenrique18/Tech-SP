@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #055269
+}
+
+h1 , h2 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 100;
+}
+
+h2{
+    font-size: 15px;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    padding: 35px 0;
+    background: #055269;
+}
+
+header .container > h1{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 100;
+    color: #fff;
+}
+
+header .container nav{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 100;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li, a{
+    text-decoration: none;
+    display: inline;
+    font-size: 12px;
+    color: #fff;
+    padding: 10px;
+}
+
+#info-shop .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#info-shop img{
+    width: 280px;
+}
+
+.container div p, h2{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#info-shop{
+    margin-top: 20px;
+    color: #055269;
+}
+
+.logos img{
+    width: 50px !important;
+    margin-left: 20px;
+}
+
+.logos li{
+    list-style: none;
+}
+
+.logos{
+    display:flex !important;
+    justify-content: space-evenly;
+}
+
+#info-shop .info-tech{
+    justify-content: center !important;
+    margin-top: 20px;
+}
+
+.info-tech h2{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #055269;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.login input,
+.login textarea,
+.login button{
+    width: 250px;
+    height: 35px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    padding: 6px;
+    border: 1px solid #055269
+}
+
+.login textarea{
+    resize: none;
+    height: 180px !important;
+    width: 250px !important;
+}
+
+.login h2{
+    font-size: 12px;
+    font-weight:lighter;
+}
+
+button{
+    background-color: #055269;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+div.institucional{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: baseline;
+}
+
+.institucional li{
+    list-style: none;
+}
+
+.redes img{
+    width: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.endereço{
+    flex-direction: column;
+}
+
+footer{
+    background-color: #055269;
+    color: #fff;
+    padding: 25px 5px;
+    margin-top: 20px;
+    letter-spacing:4px;
+}
+
+footer p{
+    color: #fff;
+}
+
+
+
+
